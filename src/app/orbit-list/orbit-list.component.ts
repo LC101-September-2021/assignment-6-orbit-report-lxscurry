@@ -26,5 +26,11 @@ export class OrbitListComponent implements OnInit {
 			return 0;
 		});
 	}
-
-}
+	highlightedRows(i: number): boolean {
+		if (i%2===0){
+			return true;
+		}
+		return false;
+	
+	 }
+	}
